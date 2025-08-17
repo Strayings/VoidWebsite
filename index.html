@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project Void</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            accent: "rgb(0,172,172)"
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-black text-white font-sans min-h-screen flex flex-col">
+
+
+  
+  
+<section class="flex flex-col items-center justify-center flex-grow text-center px-6 pt-28">
+  <h1 class="text-8xl sm:text-7xl font-extrabold text-accent drop-shadow-lg mb-6">Void V3</h1>
+  <p class="text-gray-400 text-xl max-w-2xl mb-10">
+    A SPVP focused Minecraft Bedrock client for 
+    <span class="text-accent font-semibold">v1.21.2</span>, exclusively for 
+    <span class="text-accent font-semibold">Windows</span>.  
+    Made for 2b2tpe, 2b2tmcpe and other IGN servers.
+  </p>
+
+  
+  <div class="flex flex-col sm:flex-row gap-4">
+    <a href="VoidClient.dll" download
+       class="px-8 py-3 bg-accent text-black font-semibold rounded-xl shadow-lg hover:scale-105 transition transform">
+      Download DLL
+    </a>
+    <a href="https://discord.gg/pSUVeSgRAs" target="_blank"
+       class="px-8 py-3 bg-gray-800 text-white font-semibold rounded-xl shadow-lg hover:bg-gray-700 hover:scale-105 transition transform">
+      Join Discord
+    </a>
+  </div>
+</section>
+
+  
+  <section class="py-20 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-bold text-accent mb-8">Showcase (V2 Version is shown)</h2>
+      <div class="aspect-video w-full rounded-xl overflow-hidden shadow-lg">
+        <iframe 
+          class="w-full h-full"
+          src="https://www.youtube.com/embed/fVv-JDPjmxg?si=4OEVLTsCLc1jLOhd" 
+          title="Void Client Showcase"
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="py-20 px-6">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-4xl font-bold text-accent mb-10 text-center">FAQ</h2>
+      <div class="grid gap-6">
+        <div class="p-6 bg-white/10 backdrop-blur-md rounded-xl shadow hover:shadow-accent/40 transition">
+          <h3 class="text-xl font-semibold mb-2">What version does Void Client support?</h3>
+          <p class="text-gray-300">Void Client currently supports Minecraft Bedrock <span class="text-accent">1.21.2</span>.</p>
+        </div>
+        <div class="p-6 bg-white/10 backdrop-blur-md rounded-xl shadow hover:shadow-accent/40 transition">
+          <h3 class="text-xl font-semibold mb-2">What platforms are supported?</h3>
+          <p class="text-gray-300">Void Client is made exclusively for <span class="text-accent">Windows</span>, not for mobile.</p>
+        </div>
+        <div class="p-6 bg-white/10 backdrop-blur-md rounded-xl shadow hover:shadow-accent/40 transition">
+          <h3 class="text-xl font-semibold mb-2">Is this a RAT?</h3>
+          <p class="text-gray-300">This is not a virus/trojan or a coordlogger, it is safe to use on servers.</p>
+        </div>
+        <div class="p-6 bg-white/10 backdrop-blur-md rounded-xl shadow hover:shadow-accent/40 transition">
+          <h3 class="text-xl font-semibold mb-2">Where can I get help?</h3>
+          <p class="text-gray-300">Join our Discord server for support, updates, and community discussion.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer class="py-6 text-center text-gray-500 text-sm">
+    © 2025 Void Client. All rights reserved.
+  </footer>
+
+</body>
+</html>
